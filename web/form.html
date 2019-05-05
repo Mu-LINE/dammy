@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="./css/form.css">
+        <meta charset="utf-8">
+        <title>enbook | 解 </title>
+    </head>
+    <body>
+    <div class="wrap">
+        <!-- header begin -->
+        <header id="top">
+            <div class="contentsColor">
+                <a href="./index.html">
+                <img src="./image/logo.png" alt="logos"></a>
+                <h2>～ウェブ上での新しい書籍と　　　<br>
+                    　　　　　　あなたとの縁をつなぐ～</h2>
+                <ul class="clearfix">
+                    <li class="first"><a href="./beforetext.html">前書き</a></li>
+                    <li><a href="./story.html">物語</a></li>
+                    <li><a href="./write.html">紬</a></li>
+                    <li><a href="./encount.html">逢</a></li>
+                    <li><a href="./read.html">解</a></li>
+                    <li><a href="./aftertext.html">あとがき</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- main begin  -->
+        <main class="clearfix">
+            <h3>お問い合わせ</h3>
+            <p>　下記項目を入力し、送信ボタンを押してください。（※マークは必須項目）</p>
+            <form class="" action="index.html" method="post">
+                <table>
+                    <tr>
+                        <td><span>※</span>お名前：</td>
+                        <td><input type="text" name="nicname" class="text" placeholder="お名前を入力してください"></td>
+                    </tr>
+                    <tr>
+                        <td><span>※</span>性別：</td>
+                        <td class="radiobutton">
+                            <input type="radio" name="gender" value="man" checked>男性
+                            <input type="radio" name="gender" value="woman">女性
+                            <input type="radio" name="gender" value="mixman">その他
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>※</span>E-mail:</td>
+                        <td>
+                            <input type="email" name="email" placeholder="@example.com" class="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>年齢:</td>
+                        <td>
+                            <select name="age">
+                                <option value="format" selected>▼ 年齢を選択してください</option>
+                                <option value="firstage">～19歳</option>
+                                <option value="secondage">20歳～29歳</option>
+                                <option value="thiredage">30歳～39歳</option>
+                                <option value="fourceage">40歳～49歳</option>
+                                <option value="fifthage">50歳以上</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>職業:</td>
+                        <td>
+                            <select name="poly">
+                                <option value="select" selected>▼ 職業を選択してください</option>
+                                <option value="student">学生</option>
+                                <option value="freeter">フリーター</option>
+                                <option value="saraly">社会人</option>
+                                <option value="want">無職</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr cols="2">
+                        <td><span>※</span>お問い合わせ内容:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="infomation">
+                            <textarea name="info" rows="16" cols="50" placeholder="800字以内で記入をお願いします。"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" name="senddata" value="送信" class="button">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+        <!-- main end -->
+        <a href="#top" class="oprity">↑</a>
+        <!-- footer begin -->
+        <footer>
+            <ul>
+                <li><a href="./index.html">トップページ</a></li>
+                <li><a href="#">利用規約</a></li>
+                <li><a href="#">運営情報</a></li>
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+            <p>&copy enbook</p>
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    </body>
+</html>

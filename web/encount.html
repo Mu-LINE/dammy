@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="./css/encount.css">
+        <meta charset="utf-8">
+        <title>enbook | 逢 </title>
+    </head>
+    <body>
+    <div class="wrap">
+        <!-- header begin -->
+        <header id="top">
+            <div class="contentsColor">
+                <a href="./index.html">
+                <img src="./image/logo.png" alt="logos"></a>
+                <h2>～ウェブ上での新しい書籍と　　　<br>
+                    　　　　　　あなたとの縁をつなぐ～</h2>
+                <ul class="clearfix">
+                    <li class="first"><a href="./beforetext.html">前書き</a></li>
+                    <li><a href="./story.html">目次</a></li>
+                    <li><a href="./write.html">紬</a></li>
+                    <li class="selected"><a href="./encount.html">逢</a></li>
+                    <li><a href="./read.html">解</a></li>
+                    <li><a href="./aftertext.html">あとがき</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- main begin  -->
+        <main class="clearfix">
+          <p>こちらには、読者様の書籍との出逢いを置いています。特定の書籍との出逢いの物語を
+          知りたい方は下の検索バーから、検索内容を記入して検索をしてください。</p>
+          <p class="impull"> <input type="button" name="pull" value="出逢いを書く"> </p>
+          <table id="serchbar">
+            <tr>
+              <td>作者様名</td>
+              <td>
+                <input type="text" name="writer">
+              </td>
+            </tr>
+            <tr>
+              <td>発売年</td>
+              <td>
+                <input type="number" name="writeday" placeholder="西暦〇〇年">
+              </td>
+            </tr>
+            <tr>
+              <td>タイトル名</td>
+              <td>
+                <input type="text" name="goods">
+              </td>
+            </tr>
+            <tr>
+              <td>フリーワード</td>
+              <td>
+                <input type="text" name="freeword">
+              </td>
+            </tr>
+          </table>
+          <input type="button" name="serch" value="上記の条件で検索" class="serchbtn">
+
+          <table id="imtable">
+            <tr class="topbar">
+              <td colspan="5">感想一覧（更新順）</td>
+            </tr>
+            <tr>
+              <td class="day">更新日</td>
+              <td class="writers">作者名</td>
+              <td class="title">作品名</td>
+              <td class="release">発売年</td>
+              <td class="impression">感想タイトル</td>
+            </tr>
+            <tr>
+              <td class="day">9999/2/30</td>
+              <td class="writers">---</td>
+              <td class="title">---</td>
+              <td class="release">---</td>
+              <td class="impression">---</td>
+            </tr>
+          </table>
+          <p class="impull"> <input type="button" name="pull" value="出逢いを書く"> </p>
+
+        </main>
+        <!-- main end -->
+        <a href="#top" class="oprity">↑</a>
+        <!-- footer begin -->
+        <footer>
+            <ul>
+                <li><a href="./index.html">トップページ</a></li>
+                <li><a href="#">利用規約</a></li>
+                <li><a href="./aftertext.html">運営情報</a></li>
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+            <p>&copy enbook</p>
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    </body>
+</html>
